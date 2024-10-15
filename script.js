@@ -43,10 +43,3 @@ converter();
     });
     return value;
 }
-
- function animateResult() {
-    return result.animate(
-      [{ transform: "translateY(-150px)" }, { transform: "translateY(0px)" }],
-      { duration: 500 }
-    );
-  }
